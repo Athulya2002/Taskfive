@@ -12,11 +12,17 @@ The Nmap scan was conducted using this command
 sudo nmap -n -p- -sV 10.0.2.5 -oN nmap.txt
 
 sudo: Runs the command with superuser privileges, necessary for certain types of scans.
+
 nmap: The network scanning tool.
+
 -n: Disables DNS resolution to speed up the scan by skipping the hostname resolution step.
+
 -p-: Scans all 65,535 TCP ports on the target machine.
+
 -sV: Enables service version detection, allowing Nmap to determine the versions of the services running on the open ports.
+
 10.0.2.5: The IP address of the target machine (your Metasploitable VM).
+
 -oN nmap.txt: Saves the scan results in a file named nmap.txt in a human-readable format.
 
 FILES
