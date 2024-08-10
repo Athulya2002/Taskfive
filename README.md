@@ -26,8 +26,13 @@ nmap.txt : Contains the result of the scan.
 INSTRUCTIONS
 
 1.Clone this repository to your local machine.
+
 git clone https://github.com/Athulya2002/Taskfive.git
+
 2.Navigate to the repository
+
 cd Taskfive
+
 3.Open nmap.txt to view the scan reults
+
 cat nmap.txt
