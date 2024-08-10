@@ -1,11 +1,11 @@
 # Taskfive
 Nmap scanning of ports of metasploitable
 
-OVERVIEW 
+# OVERVIEW 
 
 In this repository , a port scan on the Metasploitable virtual machine with the IP address 10.0.2.5 using Kali Linux has been done. This scan helps identify open ports and active services, providing insights into potential vulnerabilities.
 
-NMAP SCAN DETAILS
+# NMAP SCAN DETAILS
 
 The Nmap scan was conducted using this command
 
@@ -25,11 +25,11 @@ nmap: The network scanning tool.
 
 -oN nmap.txt: Saves the scan results in a file named nmap.txt in a human-readable format.
 
-FILES
+# FILES
 
 nmap.txt : Contains the result of the scan.
 
-INSTRUCTIONS
+# INSTRUCTIONS
 
 1.Clone this repository to your local machine.
 
